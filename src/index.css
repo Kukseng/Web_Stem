@@ -1,0 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Suwannaphum:wght@100;300;400;700;900&display=swap");
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+@theme {
+  --font-suwan: "Suwannaphum", serif; 
+  --font-poppins: Poppins, sans-serif;
+  --color-primary: #6CC695;
+  --color-secondary: #D2E6E4;
+  --color-tertiary: #F9A826;
+  --color-decribe: #4d5860;
+  --color-topic: #3a454d;
+  --color-title: #465159;
+  --color-gray-dark: #718096;
+  --color-gray-light: #EDF2F7;
+  --color-gray-lighter: #F7FAFC;
+  --color-gray-lightest: #F7FAFC;
+}
+/* @font-face {
+  --suwannaphum-thin {
+    font-family: "Suwannaphum", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  --suwannaphum-light {
+    font-family: "Suwannaphum", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  --suwannaphum-regular {
+    font-family: "Suwannaphum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  --suwannaphum-bold {
+    font-family: "Suwannaphum", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  --suwannaphum-black {
+    font-family: "Suwannaphum", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+} */
+
