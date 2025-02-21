@@ -1,6 +1,6 @@
 import React from "react";
-import ISTAD from "../../assets/images/logo/ISTAD.png";
-import logo from "../../assets/images/logo/logo-modified.png";
+import ISTAD from "../../../assets/images/logo/ISTAD.png";
+import logo from "../../../assets/images/logo/logo-modified.png";
 const Footer = () => {
   const menuItems = [
     "ទំព័រដើម",
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Section */}
+          {/* Contact */}
           <div className="flex flex-col items-center sm:items-start">
             <h3 className="text-xl font-bold text-gray-800 mb-6">
               ព័ត៌មានទំនាក់ទំនង
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* ISTAD Logo Section */}
+          {/* ISTAD Logo */}
           <div className="flex flex-col items-center sm:items-start">
             <h3 className="text-xl font-bold text-gray-800 mb-6">រៀបចំដោយ</h3>
             <div className="group cursor-pointer">
